@@ -12,19 +12,19 @@
 	<header>
 		<nav>
 			<ul class="navigation1">
-				<li class="nav1"><a href="#">portfolio</a></li>
-				<li class="nav1">·</li>
-				<li class="nav1"><a href="#">about</a></li>
+				<li class="nav1"><a href="#portfolio">portfolio</a></li>
+				<li class="nav2">·</li>
+				<li class="nav1"><a href="#article">about</a></li>
 			</ul>
 				<img src="assets/img/nav.png" alt="HEXAL" class="img-nav">
 			<ul class="navigation2">
-				<li class="nav1"><a href="#">blog</a></li>
-				<li class="nav1">·</li>
-				<li class="nav1"><a href="#">get in touch</a></li>
+				<li class="nav1"><a href="#article">blog</a></li>
+				<li class="nav2">·</li>
+				<li class="nav1"><a href="#in-touch-form">get in touch</a></li>
 			</ul>
 		</nav>
 	</header>
-	<main>
+	<main id="portfolio">
 		<section class="hexagon-container">
 			<div class="container1">
 				<div class="hexagon">
@@ -98,7 +98,7 @@
 				</div>
 			</div>
 		</section>
-		<article>
+		<article id=article>
 			<div class="container">
 				<div class="cont-flex">
 					<div class="photo">
@@ -114,18 +114,18 @@
 				</div>
 				<div class="icons">
 					<ul class="icons-list">
-						<li class="icbig"><a href="" class="icon-f"><img src="assets/img/Facebook@1X.png" alt="facebook"></a></li>
-						<li class="icsmall"><a href="" class="icon-t"><img src="assets/img/Twitter@1X.png" alt="twitter"></a></li>
-						<li class="icbig"><a href="" class="icon-gp"><img src="assets/img/Google@1X.png" alt="googleplus"></a></li>
-						<li class="icsmall"><a href="" class="icon-p"><img src="assets/img/Pinterest@1X.png" alt="pinterest"></a></li>
-						<li class="icbig"><a href="" class="icon-l"><img src="assets/img/Linkedin@1X.png" alt="linkedin"></a></li>
-						<li class="icsmall"><a href="" class="icon-d"><img src="assets/img/Dribbble@1X.png" alt="dribbble"></a></li>
+						<li class="icbig"><a href="https://www.facebook.com/" class="icon-f"><div class="ic-color"><img src="assets/img/Facebook@1X.png" alt="facebook"></div></a></li><!--
+						--><li class="icsmall"><a href="https://twitter.com/?lang=ru" class="icon-t"><div class="ic-color t2"><img src="assets/img/Twitter@1X.png" alt="twitter"></div></a></li><!--
+						--><li class="icbig"><a href="https://plus.google.com/discover" class="icon-gp"><div class="ic-color t3"><img src="assets/img/Google@1X.png" alt="googleplus"></div></a></li><!--
+						--><li class="icsmall"><a href="https://www.pinterest.com/" class="icon-p"><div class="ic-color t4"><img src="assets/img/Pinterest@1X.png" alt="pinterest"></div></a></li><!--
+						--><li class="icbig"><a href="https://www.linkedin.com/" class="icon-l"><div class="ic-color t5"><img src="assets/img/Linkedin@1X.png" alt="linkedin"></div></a></li><!--
+						--><li class="icsmall"><a href="https://dribbble.com/" class="icon-d"><div class="ic-color t6"><img src="assets/img/Dribbble@1X.png" alt="dribbble"></div></a></li>
 					</ul>
 				</div>
 			</div>
 		</article>
 	</main>
-		<form action="#" class="in-touch-form">
+		<form action="#" class="in-touch-form" id="in-touch-form">
 			<!--Делает input связанными между собой-->
 			<div class="row">
 				<fieldset>
@@ -135,17 +135,17 @@
 					<input class="input-text" type="text" placeholder="Name (Required)" required>
 					<input class="input-email" type="email" placeholder="Email (Required)" required>
 					<input type="text" class="input-sub" placeholder="Subject">
-					<textarea name="" id="" cols="30" rows="10">Write your message here...</textarea>
+					<textarea name="mes" id="" cols="30" rows="10" class="mes">Write your message here...</textarea>
 				</fieldset>
 				<div class="block">
 					<p class="inf"><b>Quisque Hendrerit:</b> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
 					<div class="contacts">
 						<div class="con1"><img src="assets/img/location.png" alt="" class="contimloc">
-						<a href="" class="location">Elm St. 14/05 Lost City</a></div>
+						<a href="https://www.google.ru/maps/search/Elm+St.+14%2F05+Lost+City/@53.866996,26.9578948,8.5z" class="location">Elm St. 14/05 Lost City</a></div>
 						<div class="con1"><img src="assets/img/telephone.png" alt="" class="contim">
-						<a href="" class="telephone">+ 3528 331 86 35</a></div>
+						<a href="tel: + 3528 331 86 35" class="telephone">+ 3528 331 86 35</a></div>
 						<div class="con1"><img src="assets/img/mail.png" alt="" class="contim">
-						<a href="" class="mail">info@hexalcorp.com</a></div>
+						<a href="mailto: info@hexalcorp.com" class="mail">info@hexalcorp.com</a></div>
 					</div>
 				</div>
 			</div>
