@@ -159,7 +159,6 @@ a:hover{
 .container1, .container2, .container3{
 	display: flex;
 	justify-content: center;
-	
 }
 
 .container2{
@@ -205,8 +204,13 @@ article{
 	flex-basis: 25%;
 }
 
+.photo{
+	margin: 52px 0 0 17px;
+}
+
 .content{
 	width: 75%;
+	margin: 49px 0 0 0;
 	padding-left: 20px;
 	flex-basis: 3;
 }
@@ -215,12 +219,14 @@ h1{
 	color: #d7fcf5;
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 30px;
+	margin: 0;
 }
 
 h2{
 	color: #248f79;
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 18px;
+	margin: 0;
 }
 
 p{
@@ -233,11 +239,9 @@ p{
 /*social icons*/
 .icons{
 	display: flex;
-	-ms-align-items: flex-end;
-	align-items: flex-end;
 	justify-content: flex-end;
 	margin-top: 200px;
-	padding-bottom: 30px;
+	padding: 0 17px 85px 0;
 }
 
 .icon-list{
